@@ -11,7 +11,7 @@ public class Data {
 
     static final String FILEPATH = System.getenv("WORKSPACE");//new File("").getAbsolutePath();
 
-    private static void FromFiles() {
+    private static void FromFiles(String longZI, String modo) {
         File[] v = new File(FILEPATH + "/Data").listFiles();
         if (v != null) {
             for (int i = 0; i < v.length; i++) {
@@ -23,7 +23,7 @@ public class Data {
 
                             public void run() {
                                 Data d = new Data(); //"1877429";//51511750
-                                d.init(x);
+                                d.init(x,longZI,modo);
                             }
                         }).start();
                     } catch (Exception e) {
@@ -34,14 +34,16 @@ public class Data {
         }
     }
 
-    void init(String GI) {
+    void init(String GI,String longZI, String modo) {
+        
         //   new SequencesCreator(GI);
+        
         String root_url = FILEPATH + "/";
-        int cant_bases = 1000;
+        int cant_bases = Integer.parseInt(longZI);
         GeneGeter geneGeter = new GeneGeter();
         geneGeter.obtenerGenes(root_url + "Data/" + GI, cant_bases, GI);
         UnionCom unionData = new UnionCom();//TODO poner parametros en la interface
-        String locustag = unionData.union(GI, root_url, false, true, 10000);
+        String locustag = unionData.union(GI, root_url, false, true, 10000, modo);
         System.out.println(GI + "   " + locustag);
         StrandsExtractor extractor = new StrandsExtractor();
         extractor.extractor(GI, root_url);
@@ -70,7 +72,7 @@ public class Data {
      *
      */
     public static void main(String[] args) throws FileNotFoundException {
-        FromFiles();
+        FromFiles(args[0],args[1]);
         System.out.println("COMBINANDO");
         //Ruta donde se guardaran los archivos combinados
         Combinar com = new Combinar(FILEPATH + "/combinados/datos/");

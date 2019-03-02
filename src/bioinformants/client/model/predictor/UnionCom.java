@@ -36,7 +36,7 @@ public class UnionCom {
     boolean complement;
 
     //----------------------------------------------------------------------------------------------------------
-    public String union(String GI, String root_url, boolean completos, boolean intronesGTAG, int limitGen) {
+    public String union(String GI, String root_url, boolean completos, boolean intronesGTAG, int limitGen, String modo) {
         try {
             Taxon = "";
             genes = new Vector();
@@ -107,7 +107,8 @@ public class UnionCom {
                     //System.out.print(cont+"\n");
                     gen_obj.setGenes(matcher.replaceAll(""));
                     genes_regex_aux = " +gene {2,}";
-                    genes_regex1 = " +mRNA +(join\\()?(complement\\()*+";
+                    genes_regex1 = " +"+modo+" +(join\\()?(complement\\()*+";
+                    //genes_regex1 = " +mRNA +(join\\()?(complement\\()*+";
                     //genes_regex1 = " +CDS +(join\\()?(complement\\()*+";
                     genes_pattern_aux = Pattern.compile(genes_regex_aux);
                     genes_pattern1 = Pattern.compile(genes_regex1);
