@@ -1,0 +1,187 @@
+<ID>
+	3    standard; DNA; HTG; 3483 BP.
+</ID>
+	
+<AC>
+	chromosome:GRCh38:3:187667912:187671394:-1
+</AC>
+	
+<SV>
+	chromosome:GRCh38:3:187667912:187671394:-1
+</SV>
+	
+<DT>
+	15-JAN-2025
+</DT>
+	
+<DE>
+	Homo sapiens chromosome 3 GRCh38 partial sequence 187667912..187671394
+	annotated by Ensembl
+</DE>
+	
+<KW>
+	.
+</KW>
+	
+<OS>
+	Homo sapiens (human)
+</OS>
+<OC>
+	Eukaryota; Opisthokonta; Metazoa; Eumetazoa; Bilateria; Deuterostomia;
+	Chordata; Craniata; Vertebrata; Gnathostomata; Teleostomi; Euteleostomi;
+	Sarcopterygii; Dipnotetrapodomorpha; Tetrapoda; Amniota; Mammalia; Theria;
+	Eutheria; Boreoeutheria; Euarchontoglires; Primates; Haplorrhini;
+	Simiiformes; Catarrhini; Hominoidea; Hominidae; Homininae.
+</OC>
+	
+<CC>
+	This sequence was annotated by Ensembl (https://www.ensembl.org). Please
+	visit the Ensembl or EnsemblGenomes web site, http://www.ensembl.org/ or
+	http://www.ensemblgenomes.org/ for more information.
+</CC>
+	
+<CC>
+	All feature locations are relative to the first (5') base of the sequence
+	in this file.  The sequence presented is always the forward strand of the
+	assembly. Features that lie outside of the sequence contained in this file
+	have clonal location coordinates in the format: .:..
+</CC>
+	
+<CC>
+	The /gene indicates a unique id for a gene, /note="transcript_id=..." a
+	unique id for a transcript, /protein_id a unique id for a peptide and
+	note="exon_id=..." a unique id for an exon. These ids are maintained
+	wherever possible between versions.
+</CC>
+	
+<CC>
+	All the exons and transcripts in Ensembl are confirmed by similarity to
+	either protein or cDNA sequences.
+</CC>
+	
+<FH>
+	Key             Location/Qualifiers
+</FH>
+<FT>
+	<source>
+		1..3483
+		/organism="Homo sapiens"
+		/db_xref="taxon:9606"
+	</source>
+	<gene>
+		1001..2483
+		/gene=ENSG00000157005.4
+		/locus_tag="SST"
+		/note="somatostatin [Source:HGNC Symbol;Acc:HGNC:11329]"
+	</gene>
+	<mRNA>
+		join(1001..1241,2118..2483)
+		/gene="ENSG00000157005.4"
+		/standard_name="ENST00000287641.4"
+	</mRNA>
+	<CDS>
+		join(1104..1241,2118..2330)
+		/gene="ENSG00000157005.4"
+		/protein_id="ENSP00000287641.3"
+		/note="transcript_id=ENST00000287641.4"
+		/db_xref="CCDS:CCDS3288"
+		/db_xref="Uniprot/SWISSPROT:P61278"
+		/db_xref="RefSeq_peptide:NP_001039"
+		/db_xref="RefSeq_mRNA:NM_001048"
+		/db_xref="UCSC:uc003frn.5"
+		/db_xref="HPA:75"
+		/db_xref="HPA:34105"
+		/db_xref="HPA:ENSG00000157005"
+		/db_xref="HPA:19472"
+		/db_xref="BioGRID:112628"
+		/db_xref="EMBL:AK312177"
+		/db_xref="EMBL:BC032625"
+		/db_xref="EMBL:CH471052"
+		/db_xref="EMBL:J00306"
+		/db_xref="GO:0005179"
+		/db_xref="GO:0005179"
+		/db_xref="GO:0005179"
+		/db_xref="GO:0005515"
+		/db_xref="GO:0005576"
+		/db_xref="GO:0005576"
+		/db_xref="GO:0005576"
+		/db_xref="GO:0005576"
+		/db_xref="GO:0005615"
+		/db_xref="GO:0005615"
+		/db_xref="GO:0005615"
+		/db_xref="GO:0005615"
+		/db_xref="GO:0005829"
+		/db_xref="GO:0006972"
+		/db_xref="GO:0007166"
+		/db_xref="GO:0007186"
+		/db_xref="GO:0007267"
+		/db_xref="GO:0007268"
+		/db_xref="GO:0007584"
+		/db_xref="GO:0007586"
+		/db_xref="GO:0008285"
+		/db_xref="GO:0008628"
+		/db_xref="GO:0009410"
+		/db_xref="GO:0010447"
+		/db_xref="GO:0030334"
+		/db_xref="GO:0030334"
+		/db_xref="GO:0038170"
+		/db_xref="GO:0043025"
+		/db_xref="GO:0043200"
+		/db_xref="GO:0048018"
+		/db_xref="GO:0048018"
+		/db_xref="GO:0048545"
+		/db_xref="GO:0098982"
+		/db_xref="GO:0098992"
+		/db_xref="GO:0099072"
+		/db_xref="HGNC_trans_name:SST-201"
+		/db_xref="PDB:2MI1"
+		/db_xref="PDB:7T10"
+		/db_xref="PDB:7WIC"
+		/db_xref="PDB:7WJ5"
+		/db_xref="PDB:7XAT"
+		/db_xref="PDB:7XMR"
+		/db_xref="PDB:7XMS"
+		/db_xref="PDB:7Y27"
+		/db_xref="protein_id:AAA60566"
+		/db_xref="protein_id:AAH32625"
+		/db_xref="protein_id:BAG35110"
+		/db_xref="protein_id:EAW78145"
+		/db_xref="Reactome:R-HSA-162582"
+		/db_xref="Reactome:R-HSA-212436"
+		/db_xref="Reactome:R-HSA-372790"
+		/db_xref="Reactome:R-HSA-373076"
+		/db_xref="Reactome:R-HSA-375276"
+		/db_xref="Reactome:R-HSA-388396"
+		/db_xref="Reactome:R-HSA-418594"
+		/db_xref="Reactome:R-HSA-500792"
+		/db_xref="Reactome:R-HSA-73857"
+		/db_xref="Reactome:R-HSA-74160"
+		/db_xref="Reactome:R-HSA-8986944"
+		/db_xref="Reactome:R-HSA-9022702"
+		/db_xref="Reactome_transcript:R-HSA-162582"
+		/db_xref="Reactome_transcript:R-HSA-212436"
+		/db_xref="Reactome_transcript:R-HSA-372790"
+		/db_xref="Reactome_transcript:R-HSA-373076"
+		/db_xref="Reactome_transcript:R-HSA-375276"
+		/db_xref="Reactome_transcript:R-HSA-388396"
+		/db_xref="Reactome_transcript:R-HSA-418594"
+		/db_xref="Reactome_transcript:R-HSA-500792"
+		/db_xref="Reactome_transcript:R-HSA-73857"
+		/db_xref="Reactome_transcript:R-HSA-74160"
+		/db_xref="Reactome_transcript:R-HSA-8986944"
+		/db_xref="Reactome_transcript:R-HSA-9022702"
+		/db_xref="UniParc:UPI0000135AE3"
+		/translation="MLSCRLQCALAALSIVLALGCVTGAPSDPRLRQFLQKSLAAAAGK
+		QELAKYFLAELLSEPNQTENDALEPEDLSQAAEQDEMRLELQRSANSNPAMAPRERKAG
+		CKNFFWKTFTSC"
+	</CDS>
+	<exon>
+		1001..1241
+		/note="exon_id=ENSE00001029669.5"
+	</exon>
+	<exon>
+		2118..2483
+		/note="exon_id=ENSE00001029670.5"
+	</exon>
+</FT>
+	
