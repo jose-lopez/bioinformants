@@ -1,6 +1,6 @@
-========================
+=========
 EXECUTION DESCRIPTION
-========================
+=========
 
 To run the project do the following:
 
