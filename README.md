@@ -2,12 +2,11 @@
 EXECUTION DESCRIPTION
 ========================
 
-To run the project from the command line, buid the jar, go to the dist folder and
-type the following:
+To run the project do the following:
 
-set the data in <home directory>/datos_ensembl/ 
+1. set the data in <your home directory>/datos_ensembl/ 
 
-java -jar bioinformants.jar <bp upstream> <mRNA|CDS>
+2. java -jar bioinformants.jar <bp upstream> <mRNA|CDS>
 
 for instance:
 
