@@ -4,9 +4,13 @@ EXECUTION DESCRIPTION
 
 To run the project do the following:
 
-1. set the data in <your home directory>/datos_ensembl/ 
+1. Set an enviroment variable named WORKSPACE in this way:
 
-2. java -jar bioinformants.jar <bp upstream> <mRNA|CDS>
+set WORKSPACE=<your home directory>/datos_ensembl/
+
+2. Copy the datos_ensembl to your home directory
+
+3. Execute the command java -jar bioinformants.jar <bp upstream> <mRNA|CDS>
 
 for instance:
 
