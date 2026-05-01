@@ -1,5 +1,6 @@
 
-Bioinformants
+# **Bioinformants: Pasos para su instalación**
+
 
 This is a Java based NetBeans Project developed to process data from Ensembl and get positive and negative examples about different structural sites in genes (TSS, TTS, GT splicing site, AG splicing site, and so on).
 
