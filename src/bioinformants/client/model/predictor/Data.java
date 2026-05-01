@@ -9,7 +9,7 @@ import test.Combinar;
 
 public class Data {
 
-    static final String FILEPATH = System.getenv("WORKSPACE");//new File("").getAbsolutePath();
+    static final String FILEPATH = System.getenv("HOME") + "/datos_ensembl";
 
     private static void FromFiles(String longZI, String modo) {
         File[] v = new File(FILEPATH + "/Data").listFiles();
