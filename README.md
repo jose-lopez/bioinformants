@@ -6,7 +6,7 @@ To run the project do the following:
 
 1. Set an enviroment variable named WORKSPACE in this way:
 
-set WORKSPACE=HOME-DIRECTORY/datos_ensembl/
+set WORKSPACE=YOUR-HOME-DIRECTORY/datos_ensembl/
 
 2. Copy the datos_ensembl folder in the project's tree to your home directory
 
